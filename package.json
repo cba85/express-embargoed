@@ -1,0 +1,28 @@
+{
+  "name": "express-embargoed",
+  "version": "1.0.0",
+  "description": "Middleware to block all requests from Russia to any Express app and display a pro-Ukraine message instead 🇺🇦",
+   "main": "src/embargoed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cba85/express-embargoed.git"
+  },
+   "keywords": [
+    "express.js",
+    "embargoed",
+    "russia",
+    "ukraine"
+  ],
+  "author": "cba85",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cba85/express-embargoed/issues"
+  },
+  "homepage": "https://github.com/cba85/express-embargoed#readme",
+  "dependencies": {
+    "maxmind": "^4.3.5"
+  }
+}
