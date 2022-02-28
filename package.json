@@ -1,5 +1,5 @@
 {
-  "name": "express-embargoed",
+  "name": "embargoed",
   "version": "1.0.0",
   "description": "Middleware to block all requests from Russia to any Express app and display a pro-Ukraine message instead 🇺🇦",
    "main": "src/embargoed.js",
