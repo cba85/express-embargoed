@@ -12,7 +12,7 @@ module.exports = (req, res, next) => {
     const info = lookup.get(ip);
 
     if (info && info.country.iso_code == blockedCountry) {
-        const template = path.join(__dirname, "../public", "maintenance.html");
+        const template = path.join(__dirname, "../public", "embargoed.html");
         const view = fs.readFileSync(template);
 
         res.setHeader("Content-Type", "text/html");

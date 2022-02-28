@@ -25,3 +25,11 @@ const embargoed = require("embargoed");
 
 app.use(embargoed);
 ```
+
+## Other technologies
+
+This plugin is supported in a variety of different technology stacks. You can find an exhaustive list in [this repository](https://github.com/rameerez/embargoed-list).
+
+## Collaborate
+
+Please feel free to contact to [@rameerez](https://twitter.com/rameerez) or fork this to port it to other platforms, or make PRs to this repo to collaborate.
