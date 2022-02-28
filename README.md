@@ -8,7 +8,7 @@ This middleware checks the IP of visitors coming to your site for their origin. 
 
 The message looks as follows:
 
-![Embargoed message](./docs/embargoed-message.js)
+![Embargoed message](./docs/embargoed-message.jpeg)
 
 ## Install
 
